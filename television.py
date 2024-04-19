@@ -5,6 +5,9 @@ class Television:
     MAX_CHANNEL = 3
 
     def __init__(self) -> None:
+        """
+        Initializes base values for Television
+        """
         self.__status = False
         self.__muted = False
         self.__volume = Television.MIN_VOLUME
